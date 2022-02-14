@@ -1,14 +1,29 @@
 {
   "name": "my-wave-portal",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "hardhat": "^2.8.4"
-  }
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.8.4",
+    "mocha": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/mael-ha/my-wave-portal.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mael-ha/my-wave-portal/issues"
+  },
+  "homepage": "https://github.com/mael-ha/my-wave-portal#readme"
 }
